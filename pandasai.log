@@ -1,0 +1,165 @@
+2024-06-25 18:55:33 [INFO] Question: Which are the locations of the coffee shop?
+2024-06-25 18:55:33 [INFO] Running PandasAI with local LLM...
+2024-06-25 18:55:33 [INFO] Prompt ID: d4c36a90-af89-421b-9e8d-8d162ba5c845
+2024-06-25 18:55:33 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-06-25 18:55:34 [INFO] Executing Step 0: ValidatePipelineInput
+2024-06-25 18:55:34 [INFO] Executing Step 1: CacheLookup
+2024-06-25 18:55:34 [INFO] Executing Step 2: PromptGeneration
+2024-06-25 18:55:34 [INFO] Using prompt: <dataframe>
+dfs[0]:149116x13
+transaction_id,transaction_date,transaction_time,transaction_qty,store_id,store_location,product_id,unit_price,product_category,product_type,product_detail,Weekday,Revenue
+5565,2023-05-05,16:46:16,6,3,Hell's Kitchen,24,2.5,Bakery,Black tea,English Breakfast Lg,Monday,4.2
+83018,2023-02-27,9:39:17,1,5,Astoria,47,4.06,Branded,Gourmet brewed coffee,Earl Grey Lg,Saturday,23.0
+1753,2023-03-01,10:27:10,8,8,Lower Manhattan,54,3.1,Tea,Organic Chocolate,Jamaican Coffee River Sm,Tuesday,2.1
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ Which are the locations of the coffee shop?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-06-25 18:55:34 [INFO] Executing Step 3: CodeGenerator
+2024-06-25 18:55:34 [INFO] Retrying request to /chat/completions in 0.869861 seconds
+2024-06-25 18:55:34 [INFO] Retrying request to /chat/completions in 1.923096 seconds
+2024-06-25 18:55:36 [ERROR] Pipeline failed on step 3: Connection error.
+2024-06-25 18:56:02 [INFO] Question: Which are the locations of the coffee shop?
+2024-06-25 18:56:02 [INFO] Running PandasAI with local LLM...
+2024-06-25 18:56:02 [INFO] Prompt ID: ce6eb54f-8a3d-4cdb-b4ee-21d0c09e1b78
+2024-06-25 18:56:02 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-06-25 18:56:02 [INFO] Executing Step 0: ValidatePipelineInput
+2024-06-25 18:56:02 [INFO] Executing Step 1: CacheLookup
+2024-06-25 18:56:02 [INFO] Executing Step 2: PromptGeneration
+2024-06-25 18:56:02 [INFO] Using prompt: <dataframe>
+dfs[0]:149116x13
+transaction_id,transaction_date,transaction_time,transaction_qty,store_id,store_location,product_id,unit_price,product_category,product_type,product_detail,Weekday,Revenue
+143010,2023-06-11,7:47:47,2,5,Astoria,37,4.25,Drinking Chocolate,Chai tea,Dark chocolate Rg,Friday,14.75
+58529,2023-05-29,6:48:31,3,3,Lower Manhattan,65,4.06,Bakery,Drinking Chocolate,Serenity Green Tea Lg,Wednesday,2.0
+55055,2023-06-24,19:01:52,1,8,Hell's Kitchen,15,2.55,Coffee beans,Green beans,Chocolate Croissant,Saturday,360.0
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ Which are the locations of the coffee shop?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-06-25 18:56:02 [INFO] Executing Step 3: CodeGenerator
+2024-06-25 18:56:06 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-25 18:56:06 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:149116x13
+transaction_id,transaction_date,transaction_time,transaction_qty,store_id,store_location,product_id,unit_price,product_category,product_type,product_detail,Weekday,Revenue
+143010,2023-06-11,7:47:47,2,5,Astoria,37,4.25,Drinking Chocolate,Chai tea,Dark chocolate Rg,Friday,14.75
+58529,2023-05-29,6:48:31,3,3,Lower Manhattan,65,4.06,Bakery,Drinking Chocolate,Serenity Green Tea Lg,Wednesday,2.0
+55055,2023-06-24,19:01:52,1,8,Hell's Kitchen,15,2.55,Coffee beans,Green beans,Chocolate Croissant,Saturday,360.0
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ Which are the locations of the coffee shop?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-06-25 18:56:06 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load data from dfs into a single dataframe
+dfs = []
+for df in dfs:
+    dfs.append(df)
+
+dataframe = pd.concat(dfs, ignore_index=True)
+
+# Extract unique store locations from the dataframe
+unique_locations = dataframe['store_location'].unique()
+
+# Generate result var: 
+result = { "type": "string", "value": f"The coffee shops are located at {', '.join(unique_locations)}." }
+
+print(result)
+            ```
+            
+2024-06-25 18:56:06 [INFO] Executing Step 4: CachePopulation
+2024-06-25 18:56:06 [INFO] Executing Step 5: CodeCleaning
+2024-06-25 18:56:06 [INFO] 
+Code running:
+```
+for df in dfs:
+    dfs.append(df)
+dataframe = pd.concat(dfs, ignore_index=True)
+unique_locations = dataframe['store_location'].unique()
+result = {'type': 'string', 'value': f"The coffee shops are located at {', '.join(unique_locations)}."}
+print(result)
+        ```
+2024-06-25 18:56:06 [INFO] Executing Step 6: CodeExecution
